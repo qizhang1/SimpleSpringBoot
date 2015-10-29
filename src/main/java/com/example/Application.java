@@ -2,7 +2,9 @@
  * 
  * Run in IDE as java application or shell > run.sh 
  * Open localhost:8080
- * 
+ * Spring Boot Actuator endpoints:
+ * http://localhost:8080/health
+ * http://localhost:8080/metrics and etc.
  */
 
 package com.example;
