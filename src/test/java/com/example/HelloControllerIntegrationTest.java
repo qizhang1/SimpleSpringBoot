@@ -30,7 +30,7 @@ public class HelloControllerIntegrationTest {
 
 	@Before
 	public void setUp() throws Exception {
-		this.base = new URL("http://localhost:" + port + "/");
+		this.base = new URL("http://localhost:" + port + "/v1/");
 		template = new TestRestTemplate();
 	}
 
